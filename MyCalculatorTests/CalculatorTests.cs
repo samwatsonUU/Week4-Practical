@@ -100,7 +100,7 @@ namespace MyCalculatorTests
             Assert.AreEqual(-5, result);
         }
 
-        /*      //Check solution!
+        /*
 
         [TestMethod]
         public void Division_DivideByZero()
@@ -114,11 +114,12 @@ namespace MyCalculatorTests
             double result = calculator.Divide(a, b);
 
             // Assert
-            Assert.ThrowsException<DivideByZeroException>(() => result);
-            
+
+
         }
 
         */
+
 
         [TestMethod]
         public void Add_LargeNumbers_ReturnsCorrectResult()
